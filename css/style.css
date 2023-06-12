@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{ outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea { font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+.block {
+
+}
+
+.block__row {
+        display:flex;
+        align-items:stretch;
+        flex-wrap: wrap;
+
+        border: 20px solid yellow;
+        margin: 0px 0px 0px 0px;
+}
+
+.block__column {
+    border: 20px solid purple;
+    flex: 1 1 auto;
+}
+
+.block__item {
+    background-color: aqua;
+    padding: 50px;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block__item_big {
+
+        background-color: aqua;
+    padding: 50px;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}
+
+.round {
+    border-top: 20px solid pink;
+}
+.round__row {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 20px solid brown;
+}
+.round__column {
+    border: 20px solid greenyellow;
+    flex: 1 1 20%;
+}
+.round__irem {
+    background-color: blue;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.all {
+}
+
+.all_row {
+    display: flex;
+    
+    min-width: 50%;
+}
+
+
+.all_column {
+    border: 20px solid grey;
+    flex: 1 1 auto;
+}
