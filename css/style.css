@@ -51,6 +51,7 @@ body {
         display:flex;
         align-items:stretch;
         flex-wrap: wrap;
+        flex-direction: row;
 
         border: 20px solid yellow;
         margin: 0px 0px 0px 0px;
@@ -86,6 +87,7 @@ body {
 .round__row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
 
     border: 20px solid brown;
 }
